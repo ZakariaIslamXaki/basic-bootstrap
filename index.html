@@ -7,23 +7,24 @@
     <title>Bootstrap Practice</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
     <header>
         <nav class="nav navbar-expand-lg sticky-top justify-content-end bg-dark">
             <a target=".blank" class="nav-link active" aria-current="page" data-bs-toggle="tooltip" data-bs-placement="top" title="Go To UIS Website" href="https://upscaleitsolutions.com/">Home</a>
+            <a target=".blank" class="nav-link" href="https://upscaleitsolutions.com/about-us/" data-bs-toggle="tooltip" data-bs-placement="top" title="Go To UIS Website" href="https://upscaleitsolutions.com/">About Us</a>
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Our Services</a>
             <ul class="dropdown-menu">
               <li><a target=".blank" class="dropdown-item" href="https://upscaleitsolutions.com/our-services/website-design-development/">Web Development</a></li>
               <li><a target=".blank" class="dropdown-item" href="https://upscaleitsolutions.com/our-services/best-creative-graphic-design-service/">Graphic Design</a></li>
               <li><a target=".blank" class="dropdown-item" href="https://upscaleitsolutions.com/our-services/small-business-marketing-consultant/">Digital Marketing</a></li>
             </ul>
-            <a target=".blank" class="nav-link" href="https://upscaleitsolutions.com/about-us/" data-bs-toggle="tooltip" data-bs-placement="top" title="Go To UIS Website" href="https://upscaleitsolutions.com/">About Us</a>
             <a target=".blank" class="nav-link" href="https://upscaleitsolutions.com/our-portfolio/" data-bs-toggle="tooltip" data-bs-placement="top" title="Go To UIS Website" href="https://upscaleitsolutions.com/">Portfolio</a>
             <a target=".blank" class="nav-link" href="https://upscaleitsolutions.com/contact/" data-bs-toggle="tooltip" data-bs-placement="top" title="Go To UIS Website" href="https://upscaleitsolutions.com/">Contact Us</a>
           </nav>
           <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
-              <div class="carousel-inner">
+              <div class="carousel-inner animate__animated animate__bounceIn">
                 <div class="carousel-item active">
                     <img src="images/carousel/gd.png" class="d-block w-100" alt="Graphic Design" width="640" height="600">
                     <div class="carousel-caption d-none d-md-block">
@@ -39,7 +40,7 @@
                       </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="images/carousel/digital.jpg" class="d-block w-100" alt="Digital Marketing" width="640" height="600">
+                    <img src="images/carousel/dm.png" class="d-block w-100" alt="Digital Marketing" width="640" height="600">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Digital Marketing</h5>
                         <p>GROW YOUR COMPANY WITH DIGITAL MARKETING AND BRANDING.</p>
@@ -49,6 +50,62 @@
           </div>
     </header>
     <main>
+        <div class="">
+            <h1 class="mt-5 mb-5 animate__animated animate__heartBeat text-center fs-1">Welcome To Upscale IT Solutions
+            </h1>
+            <div class="container d-flex">
+                <div class="row w-50 p-3 align-middle">
+                    <div class="col">
+                        <h3>
+                            Hello Folks!!!
+                        </h3>
+                        <p>
+                            We are successfully providing our premium services to 14 different countries around the world ensuring highest client satisfaction! <br>
+                            -UPSCALE IT SOLUTIONS
+                        </p>
+                    </div>
+                </div>
+                <div class="row w-50 p-3">
+                    <img src="images/pictures/body.jpg" alt="Hello" class="col w-25" alt="Graphic Design" width="250" height="250">
+                </div>
+            </div>
+        </div>
+        <div>
+            <h1 class="mt-5 mb-5 animate__animated animate__heartBeat text-center fs-1">Our Services
+            </h1>
+            <div class="card-group">
+                <div class="card">
+                  <img src="images/carousel/web.jpg" class="card-img-top" alt="Web Development">
+                  <div class="card-body">
+                    <h5 class="card-title">Web Development</h5>
+                    <p class="card-text">At Upscale IT Solution, we’re passionate about creating web experiences that matter to our customers. Our service aims at creating user-friendly and unique designs that represent your company’s image.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/carousel/gd.png" class="card-img-top" alt="Graphic Design">
+                  <div class="card-body">
+                    <h5 class="card-title">Graphic Design</h5>
+                    <p class="card-text">Our Graphic Design services communicate with your brand and message visually with impressive business logos, enchanting brochures, newsletters with impact, and stunning posters.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/carousel/dm.png" class="card-img-top" alt="Digital Marketing">
+                  <div class="card-body">
+                    <h5 class="card-title">Digital Marketing</h5>
+                    <p class="card-text">Online or digital marketing company is the bedrock behind establishing your company’s identity. It is the key to boost the advertising media across the globe.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </div>
+                </div>
+              </div>
+        </div>
     </main>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
